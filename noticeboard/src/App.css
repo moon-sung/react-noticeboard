@@ -2,11 +2,20 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grey-bg{
+  background-color: #eee;
+  width: 100vw;
+  height: 100vh;
+  padding: 1px;
 }
-
+.white-bg{
+  background-color: white;
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 10px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
