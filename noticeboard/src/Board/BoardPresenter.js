@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Component/Header'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import BoardTable from '../Component/BoardTable';
+
 
 
 const BoardPresenter = ({
@@ -9,7 +10,7 @@ const BoardPresenter = ({
   <div className='grey-bg'>
     <div className='white-bg'>
       <Header data={data}/>
-
+      <BoardTable data={data}/>
     </div>
   </div>
 )
