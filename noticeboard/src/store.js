@@ -5,10 +5,10 @@ const data = createSlice({
   name: 'data',
   initialState : [
     {
-      title: "첫번째글",
-      user: "kim",
-      content: "첫번째 글내용입니다.",
-      date: "2023-02-06",
+      title: "세번째글",
+      user: "park",
+      content: "세번째 글내용입니다.",
+      date: "2023-01-03",
     },
     {
       title: "두번째글",
@@ -17,10 +17,11 @@ const data = createSlice({
       date: "2023-02-01",
     },
     {
-      title: "세번째글",
-      user: "park",
-      content: "세번째 글내용입니다.",
-      date: "2023-01-03",
+      
+      title: "첫번째글",
+      user: "kim",
+      content: "첫번째 글내용입니다.",
+      date: "2023-02-06",
     },
   ]
 });

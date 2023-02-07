@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+div{
+  box-sizing: border-box;
+}
 .grey-bg{
   background-color: #eee;
   width: 100vw;
@@ -15,6 +17,12 @@
   margin: auto;
   margin-top: 70px;
   border-radius: 10px;
+}
+.tableHeight{
+  height: 420px;
+}
+.display-center{
+  margin: auto;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

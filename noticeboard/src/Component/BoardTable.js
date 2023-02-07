@@ -5,7 +5,7 @@ import Table from 'react-bootstrap/Table';
 const BoardTable = ({
   data
 }) => (
-  <div>
+  <div className='tableHeight'>
     
     <Table striped>
       <thead>
